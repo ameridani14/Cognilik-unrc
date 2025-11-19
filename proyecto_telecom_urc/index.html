@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognilink - Plataforma de Vinculación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cognilink</h1>
+        <p class="tagline">Impulsa tu carrera. Conecta tu talento con el mercado.</p>
+    </header>
+
+    <main>
+        <section class="section-card input-area">
+            <h2>Análisis de Perfil Estilo Harvard</h2>
+            <p class="instruction">Pega el texto de tu resumen profesional, experiencia y habilidades blandas a continuación. Nuestro sistema lo analizará.</p>
+            <textarea id="cv-text" rows="12" placeholder="Ejemplo: Soy experto en Python, manejo SQL y tengo experiencia en trabajo en equipo..."></textarea>
+            <button class="primary-button" onclick="analizarCV()">Analizar y Vincular mi Perfil</button>
+        </section>
+
+        <section class="section-card results-area">
+            <h2>Resultados y Plan de Crecimiento</h2>
+            <div id="loading" class="hidden">Analizando tu perfil...</div>
+            <div id="results-output">
+                <p class="initial-message">Presiona el botón "Analizar y Vincular mi Perfil" para ver tus coincidencias y recomendaciones.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Cognilink. Plataforma de desarrollo profesional.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

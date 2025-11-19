@@ -1,0 +1,176 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef; /* Gris muy claro */
+    color: #343a40; /* Gris oscuro para el texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #212529; /* Negro/Gris oscuro formal */
+    color: white;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.tagline {
+    font-size: 1.2em;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+main {
+    width: 90%;
+    max-width: 1300px;
+    padding: 30px 0;
+}
+
+/* Estilo para las secciones principales (Formal y Limpio) */
+.section-card {
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-top: 5px solid #ff7f50; /* Coral/Naranja de acento llamativo */
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.instruction {
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Estilo del Área de Texto */
+#cv-text {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 1em;
+}
+
+/* Botón Principal (Llamativo) */
+.primary-button {
+    background-color: #ff7f50; /* Coral/Naranja llamativo */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.primary-button:hover {
+    background-color: #e66a3d;
+    transform: translateY(-2px);
+}
+
+/* --- Estilos para Resultados --- */
+
+/* Tarjeta de Vacante */
+.vacante-card {
+    position: relative; 
+    background-color: #f8f9fa; /* Fondo ligeramente gris para contraste */
+    border: 1px solid #e2e6ea;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+/* Medidor Circular */
+.match-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Recomendaciones de Cursos */
+.recomendaciones {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff8e1; /* Amarillo muy claro para sugerencia */
+    border: 1px solid #ffecb3;
+    border-radius: 6px;
+}
+
+.curso-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dashed #ced4da;
+}
+
+.curso-item:last-child {
+    border-bottom: none;
+}
+
+/* Botón Dinámico de Curso */
+.course-link {
+    background-color: #17a2b8; /* Azul turquesa para acción */
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+.course-link:hover {
+    background-color: #138496;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}

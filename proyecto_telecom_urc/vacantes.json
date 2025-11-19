@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Analista de Datos Jr.",
+    "empresa": "Secretaría de Desarrollo Social",
+    "requisitos_tecnicos": ["Python", "SQL", "Excel", "Estadística"],
+    "requisitos_blandos": ["Trabajo en equipo", "Resolución de problemas"],
+    "descripcion": "Análisis de datos para programas sociales y generación de reportes."
+  },
+  {
+    "id": 2,
+    "titulo": "Desarrollador Backend Senior",
+    "empresa": "Tech Solutions S.A.",
+    "requisitos_tecnicos": ["JavaScript", "Node.js", "APIs REST", "Docker"],
+    "requisitos_blandos": ["Comunicación", "Autoaprendizaje", "Liderazgo"],
+    "descripcion": "Diseño y construcción de microservicios robustos y escalables."
+  },
+  {
+    "id": 3,
+    "titulo": "Especialista en Marketing Digital",
+    "empresa": "Agencia Digital ROS",
+    "requisitos_tecnicos": ["SEO", "Google Ads", "Analytics", "Redacción"],
+    "requisitos_blandos": ["Creatividad", "Orientación a resultados"],
+    "descripcion": "Creación y gestión de campañas de marketing online."
+  }
+]

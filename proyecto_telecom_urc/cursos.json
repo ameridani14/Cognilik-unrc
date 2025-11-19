@@ -1,0 +1,22 @@
+[
+  {
+    "habilidad": "Python",
+    "titulo_curso": "Curso intensivo de Python para Data Science",
+    "proveedor": "Coursera"
+  },
+  {
+    "habilidad": "SQL",
+    "titulo_curso": "Introducción a Bases de Datos Relacionales (SQL)",
+    "proveedor": "edX"
+  },
+  {
+    "habilidad": "Trabajo en equipo",
+    "titulo_curso": "Taller de Liderazgo y Colaboración Efectiva",
+    "proveedor": "LinkedIn Learning"
+  },
+  {
+    "habilidad": "Creatividad",
+    "titulo_curso": "Desarrollo del Pensamiento Creativo Aplicado",
+    "proveedor": "Platzi"
+  }
+]
